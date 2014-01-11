@@ -1,0 +1,98 @@
+body {
+    padding-top: 51px;
+}
+
+div.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0;
+}
+
+.nav-tabs li a {
+    font-size: 22px;
+}
+
+div.jumbotron {
+    padding: 20px;
+}
+
+div.logo {
+    padding-left: 320px;
+    background: url('../img/nodeday_logov1.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 450px;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+div.logo div.date {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+div.logo div.tagline {
+    line-height: 1.5em;
+}
+
+
+
+.nav > li {
+    float: left;
+}
+
+section h2 {
+    font-weight: 200;
+    font-size: 3em;
+}
+
+@media (max-width: 640px) /* @grid-float-breakpoint -1 */ {
+
+    div.logo {
+        padding-left: 300px;
+        background-size: 280px;
+        height: 300px;
+        position: relative;
+    }
+
+    div.logo div.date {
+        position: absolute;
+        right: 0;
+        top: 60px
+    }
+
+    div.logo div.tagline {
+        padding-top: 110px;
+        line-height: 1.5em;
+    }
+
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .nav > li {
+        float: none;
+        display: block;
+    }
+
+    .navbar-collapse {
+        max-height: none;
+    }
+
+    body {
+        padding-top: 0;
+    }
+}
