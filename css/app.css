@@ -79,6 +79,7 @@ section h2 {
 
     div.jumbotron {
         margin: 0;
+        padding: 0;
     }
 
     div.main{
