@@ -59,6 +59,10 @@ div.tagline {
     max-width: 360px;
 }
 
+div.action .btn{
+    vertical-align: top;
+}
+
 .nav > li {
     float: left;
 }
