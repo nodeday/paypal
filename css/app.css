@@ -59,9 +59,6 @@ div.tagline {
     max-width: 360px;
 }
 
-.nav {
-    display: none;
-}
 .nav > li {
     float: left;
 }
@@ -107,6 +104,9 @@ section h2 {
     }
 
 
+    .nav {
+        display: none;
+    }
 
     .nav > li {
         float: none;
@@ -120,10 +120,12 @@ section h2 {
     }
 
     body {
-        padding-top: 54px;
+        padding-top: 40px;
     }
 
     div.action button{
         width: 100%;
+        font-size: 1.5em;
+        margin: .25em 0;
     }
 }
