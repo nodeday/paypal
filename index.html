@@ -12,10 +12,10 @@
 <body data-spy="scroll" data-target=".topMenu">
 
 <header role="banner">
-
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
         <div class="topMenu navbar-collapse">
             <div class="wrapper">
+                <div class="toggler"><span class="glyphicon glyphicon-th-list"></span></div>
                 <ul class="nav navbar-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,19 +24,20 @@
                     <li><a href="#registration">Registration</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
 </header>
+
 <main role="main">
     <section aria-labelledby="home">
         <div class="jumbotron">
-            <div class="wrapper">
-                <div class="logo">
-                    <div class="date">February 28<sup>th</sup></div>
-                    <div class="tagline">A unique conference for the enterprise, by the enterprise.</div>
-                </div>
-                <div>
+            <div class="main wrapper">
+                <div class="logo"></div>
+                <div class="date">February 28<sup>th</sup></div>
+                <div class="tagline">A unique conference for the enterprise, by the enterprise.</div>
+                <div class="action">
+                    <button class="btn btn-success">REGISTER</button>
+
                     <a href="https://twitter.com/NodeDay" class="twitter-follow-button" data-show-count="false"
                        data-size="large">Follow @NodeDay</a>
                     <script>!function (d, s, id) {
@@ -48,14 +49,16 @@
                             fjs.parentNode.insertBefore(js, fjs);
                         }
                     }(document, 'script', 'twitter-wjs');</script>
+
                 </div>
             </div>
         </div>
 
     </section>
-    <div class="wrapper">
-        <section aria-labelledby="about">
-            <h2 id="about">About NodeDay</h2>
+
+    <div class="subContent wrapper">
+        <section id="about" aria-labelledby="aboutLabel">
+            <h2 id="aboutLabel">About NodeDay</h2>
 
             <p>This is not your run of the mill NodeJS conference.</p>
 
@@ -68,14 +71,14 @@
                 At NodeDay we will take on the topics that matter the most to large companies.
                 If you have questions, we will have answers. Register today</p>
         </section>
-        <section aria-labelledby="topics">
-            <h2 id="topics">Topics</h2>
+        <section id="topics" aria-labelledby="topicsLabel">
+            <h2 id="topicsLabel">Topics</h2>
         </section>
-        <section aria-labelledby="location">
-            <h2 id="location">Location</h2>
+        <section id="location" aria-labelledby="locationLabel">
+            <h2 id="locationLabel">Location</h2>
         </section>
-        <section aria-labelledby="registration">
-            <h2 id="registration">Register</h2>
+        <section id="registration"aria-labelledby="registrationLabel">
+            <h2 id="registrationLabel">Register</h2>
         </section>
     </div>
 </main>
@@ -97,6 +100,7 @@
         </div>
     </div>
 </div>
+<script src="js/app.js"></script>
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
