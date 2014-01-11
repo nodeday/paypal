@@ -59,7 +59,7 @@ div.tagline {
     max-width: 360px;
 }
 
-div.action .btn{
+div.action a.btn{
     vertical-align: top;
 }
 
@@ -127,7 +127,7 @@ section h2 {
         padding-top: 40px;
     }
 
-    div.action button{
+    div.action a.btn{
         width: 100%;
         font-size: 1.5em;
         margin: .25em 0;
