@@ -18,7 +18,7 @@ div.wrapper {
 
 .subContent section {
     padding-top: 54px;
-    height: 30em;
+    min-height: 30em;
 }
 
 .nav-tabs li a {
@@ -59,7 +59,7 @@ div.tagline {
     max-width: 360px;
 }
 
-div.action a.btn{
+div.action a.btn {
     vertical-align: top;
 }
 
@@ -72,10 +72,19 @@ section h2 {
     font-size: 3em;
 }
 
+#location > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#theAddress {
+    padding: 0 1em;
+}
+
 @media (max-width: 640px) /* @grid-float-breakpoint -1 */ {
 
     .toggler {
-        display: block;
+        display: table-cell;
     }
 
     div.jumbotron {
@@ -83,9 +92,10 @@ section h2 {
         padding: 0;
     }
 
-    div.main{
+    div.main {
         text-align: center;
     }
+
     div.logo {
         background-size: 280px;
         height: 280px;
@@ -107,9 +117,15 @@ section h2 {
         max-width: 100%;
     }
 
-
     .nav {
         display: none;
+        padding: 0;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .tc {
+        display: table-cell;
     }
 
     .nav > li {
@@ -124,12 +140,20 @@ section h2 {
     }
 
     body {
-        padding-top: 40px;
+        padding-top: 50px;
     }
 
-    div.action a.btn{
+    div.action a.btn {
         width: 100%;
         font-size: 1.5em;
         margin: .25em 0;
+    }
+
+    #location > div {
+        display: block;
+    }
+
+    #theAddress {
+        padding: 1em 0;
     }
 }
