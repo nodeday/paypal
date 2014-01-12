@@ -24,6 +24,8 @@ $(function () {
     })
 
     $('.nav li').click(function () {
-        $('.nav').hide();
+        if ($(window).width() < 640) {
+            $('.nav').hide();
+        }
     });
 });

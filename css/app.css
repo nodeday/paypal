@@ -1,5 +1,6 @@
 body {
     padding-top: 51px;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 div.wrapper {
@@ -18,7 +19,6 @@ div.wrapper {
 
 .subContent section {
     padding-top: 54px;
-    min-height: 30em;
 }
 
 .nav-tabs li a {
@@ -27,6 +27,7 @@ div.wrapper {
 
 div.jumbotron {
     padding: 20px;
+    margin: 0;
 }
 
 div.main {
@@ -67,9 +68,23 @@ div.action a.btn {
     float: left;
 }
 
-section h2 {
+.subContent section h2 {
     font-weight: 200;
     font-size: 3em;
+}
+
+.subContent section h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #006600;
+    margin: 0 0 1em 0;
+
+}
+
+
+.subContent p {
+    font-size: 1.25em;
+    font-weight: 200;
 }
 
 #location > div {
