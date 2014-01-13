@@ -52,6 +52,7 @@ div.tagline {
 
 div.action a.btn {
     vertical-align: top;
+    background-color: #8DC74E;
 }
 
 .nav > li {
@@ -70,7 +71,6 @@ div.action a.btn {
     margin: 0 0 1em 0;
 
 }
-
 
 .subContent p {
     font-size: 1.25em;
@@ -106,17 +106,13 @@ div.action a.btn {
     }
 
     div.date {
-        position: static;
-        margin: 0;
-        padding: 0;
+        font-size: 1.75em;
+
 
     }
 
     div.tagline {
-        position: static;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
+
     }
 
     .nav {
