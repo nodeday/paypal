@@ -28,36 +28,26 @@ div.wrapper {
 div.jumbotron {
     padding: 20px;
     margin: 0;
+    text-align: center;
 }
 
 div.main {
     position: relative;
 }
 
-div.logo {
-    background: url('../img/nodeday_logov1.png');
-    background-repeat: no-repeat;
-    background-size: 400px;
-    height: 400px;
-    width: 400px;
-    display: inline-block;
+div.logo img{
+    width: 532px;
 }
 
 div.date {
     font-size: 2em;
     font-weight: bold;
     line-height: 1em;
-    position: absolute;
-    top: 60px;
-    left: 50%;
+
 }
 
 div.tagline {
     line-height: 1.5em;
-    position: absolute;
-    top: 105px;
-    left: 50%;
-    max-width: 360px;
 }
 
 div.action a.btn {
@@ -103,19 +93,16 @@ div.action a.btn {
     }
 
     div.jumbotron {
-        margin: 0;
-        padding: 0;
+
     }
 
     div.main {
         text-align: center;
     }
 
-    div.logo {
-        background-size: 280px;
-        height: 280px;
-        width: 280px;
-        margin: 0 auto;
+    div.logo img{
+        width: 100%;
+        max-width: 532px;
     }
 
     div.date {
