@@ -11,51 +11,53 @@
 </head>
 <body data-spy="scroll" data-target=".topMenu">
 
-<header role="banner">
-    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
-        <div class="topMenu navbar-collapse">
-            <div class="wrapper">
-                <div class="toggler"><span class="glyphicon glyphicon-th-list"></span></div>
-                <ul class="nav navbar-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#topics">Topics</a></li>
-                    <li><a href="#location">Location</a></li>
-                    <li><a href="#registration">Registration</a></li>
-                </ul>
-            </div>
+
+<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="topMenu navbar-collapse">
+        <div class="wrapper">
+            <div class="toggler"><span class="glyphicon glyphicon-th-list"></span></div>
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#registration">Registration</a></li>
+            </ul>
         </div>
-    </nav>
-</header>
+    </div>
+</nav>
+
 
 <main role="main">
-    <section aria-labelledby="home">
-        <div id="home" class="jumbotron">
-            <div class="main wrapper">
-                <div class="logo"><h1><img src="img/logo.png" alt="NodeDay"></h1></div>
-                <div class="date">February 28<sup>th</sup></div>
-                <div class="tagline">A NodeJS conference for the enterprise, by the enterprise.</div>
-                <div class="action">
-                    <a href="http://www.eventbrite.com/e/nodeday-tickets-10012935961"
-                       class="btn btn-success">REGISTER</a>
+    <header>
+        <section>
+            <div id="home" class="jumbotron">
+                <div class="main wrapper">
+                    <div class="logo"><h1><img src="img/logo.png" alt="NodeDay"></h1></div>
+                    <div class="date">February 28<sup>th</sup></div>
+                    <div class="tagline">A NodeJS conference for the enterprise, by the enterprise.</div>
+                    <div class="action">
+                        <a href="http://www.eventbrite.com/e/nodeday-tickets-10012935961"
+                           class="btn btn-success">REGISTER</a>
 
-                    <a href="https://twitter.com/NodeDay" class="twitter-follow-button" data-show-count="false"
-                       data-size="large">Follow @NodeDay</a>
-                    <script>!function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + '://platform.twitter.com/widgets.js';
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, 'script', 'twitter-wjs');</script>
+                        <a href="https://twitter.com/NodeDay" class="twitter-follow-button" data-show-count="false"
+                           data-size="large">Follow @NodeDay</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + '://platform.twitter.com/widgets.js';
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, 'script', 'twitter-wjs');</script>
 
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
+        </section>
+    </header>
 
     <div class="subContent wrapper">
         <section id="about" aria-labelledby="aboutLabel">
@@ -70,7 +72,7 @@
 
             <p>
                 At NodeDay we will take on the topics that matter the most to large companies.
-                If you have questions, we will have answers. Register today</p>
+                If you have questions, we will have answers. <a href="http://www.eventbrite.com/e/nodeday-tickets-10012935961">Register today</a></p>
         </section>
         <section id="topics" aria-labelledby="topicsLabel">
             <h2 id="topicsLabel">Topics</h2>
@@ -82,7 +84,9 @@
 
                     <p>
                         Join the movers and shakers in the industry, along with the top NodeJS folks.
-                        <strong><small>By Invitation Only.</small></strong>
+                        <strong>
+                            <small>By Invitation Only.</small>
+                        </strong>
                     </p>
                 </li>
                 <li>
