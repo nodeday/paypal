@@ -89,6 +89,7 @@ div.action a.btn {
 
 #topics li h4{
     margin: 0;
+    font-weight: bold;
 }
 
 #topics li p{
