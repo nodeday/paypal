@@ -35,8 +35,9 @@ div.main {
     position: relative;
 }
 
-div.logo img{
-    width: 532px;
+div.logo img {
+    width: 530px;
+    padding-bottom: 30px;
 }
 
 div.date {
@@ -79,7 +80,7 @@ div.action a.btn {
 
 #topics ul {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
 }
 
 #topics li {
@@ -87,12 +88,12 @@ div.action a.btn {
     padding-bottom: 1.25em;
 }
 
-#topics li h4{
+#topics li h4 {
     margin: 0;
     font-weight: bold;
 }
 
-#topics li p{
+#topics li p {
 
 }
 
@@ -119,14 +120,13 @@ div.action a.btn {
         text-align: center;
     }
 
-    div.logo img{
+    div.logo img {
         width: 100%;
-        max-width: 532px;
+        max-width: 530px;
     }
 
     div.date {
         font-size: 1.75em;
-
 
     }
 
