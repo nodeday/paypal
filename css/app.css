@@ -26,7 +26,7 @@ div.wrapper {
 }
 
 div.jumbotron {
-    padding: 20px;
+    padding: 40px 0;
     margin: 0;
     text-align: center;
 }
@@ -75,6 +75,24 @@ div.action a.btn {
 .subContent p {
     font-size: 1.25em;
     font-weight: 200;
+}
+
+#topics ul {
+    margin: 0;
+    padding: 0 ;
+}
+
+#topics li {
+    list-style: none;
+    padding-bottom: 1.25em;
+}
+
+#topics li h4{
+    margin: 0;
+}
+
+#topics li p{
+
 }
 
 #location > div {
