@@ -83,19 +83,48 @@ div.action a.btn {
     padding: 0;
 }
 
+#topics li.short {
+    clear: both;
+    list-style: none;
+    height: auto;
+}
+
 #topics li {
+    clear: both;
     list-style: none;
     padding-bottom: 1.25em;
+    height: 300px;
+    margin-bottom: 2em;
 }
 
 #topics li h4 {
+    font-size: 1.5em;
     margin: 0;
+    padding: 1em 0;
     font-weight: bold;
+}
+
+#topics div.speaker {
+    margin: 0 2em 0 0;
+    float:left;
+}
+
+#topics div.speaker h5 {
+    margin-bottom: 0;
+}
+#topics div.speaker h6 {
+    margin-top: 0.5em;
+}
+
+#topics div.speaker img{
+   border-radius: 1em;
 }
 
 #topics li p {
 
 }
+
+
 
 #location > div {
     display: table-cell;
@@ -164,6 +193,10 @@ div.action a.btn {
         width: 100%;
         font-size: 1.5em;
         margin: .25em 0;
+    }
+
+    #topics div.speaker {
+        float:none;
     }
 
     #location > div {
