@@ -87,6 +87,7 @@ div.action a.btn {
     clear: both;
     list-style: none;
     height: auto;
+    min-height: inherit;
 }
 
 #topics li {
